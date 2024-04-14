@@ -27,11 +27,11 @@ We have reserved an interface for adjusting the direction of the servo in the pr
 All motion-related code is written in the program server/move.py.
 Enter the following command to open (note that it is not to execute) move.py and edit:
 	sudo  nano (path)/move.py
-(The path varies depending on the product you bought. Take RaspClaws as an example. The path of move.py is //home/pi/adeept_raspclaws/server/move.py)
+The path of move.py is //home/pi/adeept_raspclaws/server/move.py
 After opening move.py, change the value of set_direction to 0 (the default is 1), then press ctrl+x to exit, press Y to save change, and press Enter to confirm.
 
 If the reaction is slow, you can increase the P value appropriately (the line75 of move.py). If the reaction is too fast (or swing back and forth), you can reduce the P value appropriately.
 If the reaction speed is normal but there is overshoot, you need to increase the I value appropriately.
-The D value is differential and usually does not need to be changed for this product.
+The D value is differential and usually does not need to be changed.
 
 
