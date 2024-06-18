@@ -103,7 +103,7 @@ for x in range(1,4):
 		break
 
 for x in range(1,4):
-	if os.system("sudo git clone https://github.com/oblique/create_ap") == 0:
+	if os.system("sudo git clone git@github.com:anand2532/create_ap.git") == 0:
 		break
 
 try:
